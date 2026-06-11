@@ -5,7 +5,7 @@ jobs: # pipline . one workflow can have mutiple piplines
   hello:
     runs-on: ubuntu-latest # linux os , we can have windows
     steps:
-      - name: Print Hello World
+      - name: step-1
         run: echo "Hello World!"
-      - name: Print Hello World
+      - name: step2
         run: echo "Hello naresh!"
