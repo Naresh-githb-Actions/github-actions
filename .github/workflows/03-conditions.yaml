@@ -1,4 +1,4 @@
-name: Hello World
+name: conditions
 # when to triggerthis pipeline . we avan trigger on push or manual or someother events like creating PR, updating PR, create branches, creating issues
 on: [push] # tigger
 jobs: # pipline . one workflow can have mutiple piplines
