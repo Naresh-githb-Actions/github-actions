@@ -7,3 +7,5 @@ jobs: # pipline . one workflow can have mutiple piplines
     steps:
       - name: Print Hello World
         run: echo "Hello World!"
+      - name: Print Hello World
+        run: echo "Hello naresh!"
