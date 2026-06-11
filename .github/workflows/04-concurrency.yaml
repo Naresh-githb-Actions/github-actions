@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
       - name: step-1
-        run: sleep 20
-
-      - name: step-1
-        run: sleep 20
+        run: sleep 30
+      #- name: step-1
+      #  run: sleep 10
