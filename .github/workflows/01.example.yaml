@@ -1,0 +1,6 @@
+on:
+  push:
+  pull_request:
+  steps:
+  - name: Run command
+    run: echo "Hello World"
