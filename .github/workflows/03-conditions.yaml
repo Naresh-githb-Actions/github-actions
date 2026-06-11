@@ -8,5 +8,5 @@ jobs: # pipline . one workflow can have mutiple piplines
       - name: step-1
         if: github.ref == 'refs/heads/main'
         run: echo "Hello AP!"
-      #- name: step2
-      #  run: echo "Hello naresh!"
+      - name: step2
+        run: echo "Hello naresh!"
